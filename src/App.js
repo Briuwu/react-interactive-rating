@@ -12,8 +12,7 @@ function App() {
     return {
       value: num,
       selected: false,
-      id: nanoid(),
-      selectedValue: ''
+      id: nanoid()
     }
   }
 
