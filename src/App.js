@@ -51,11 +51,11 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <main className="App">
       {thanks ? <Thankyou value={rate} /> : <Rating rateElements={rateElements}
       onclick={submitBtn}
       />}
-    </div>
+    </main>
   );
 }
 
